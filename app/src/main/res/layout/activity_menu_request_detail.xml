@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white"
+        tools:context=".ui.DetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/schedule"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:orientation="vertical">
+                <TextView
+                    android:text="ID PELANGGAN"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/id_tagihan"
+                    android:textSize="24dp"
+                    tools:text="01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="1dp"
+            android:background="@color/primary_darker"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="NAMA PELANGGAN"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/name"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="NO. TELP"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/no_telp"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="TARIF"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/tarif"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="DAYA"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/daya"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="ALAMAT"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/alamat"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="LOKASI PENYAMBUNGAN"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/lokasi_penyambungan"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="MULAI PEMAKAIAN"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/mulai_pemakaian"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="SELESAI PEMAKAIAN"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/selesai_pemakaian"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="KATEGORI"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/kategori"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_column="1"
+                    android:text="PRODUK"
+                    android:paddingLeft="10dp"/>
+                <TextView
+                    android:id="@+id/produk"
+                    tools:text="Lorem ipsum"
+                    android:layout_gravity="end"
+                    android:paddingRight="10dp"/>
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:id="@+id/print_pdf"
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CETAK"
+            android:layout_gravity="bottom"
+            android:background="@color/elod"
+            android:textColor="@color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</ScrollView>

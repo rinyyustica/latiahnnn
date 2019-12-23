@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MonitoringApp</string>
+    <string name="id_pelanggan">ID TAGIHAN</string>
+    <string name="nama_pelanggan">Nama</string>
+    <string name="no.telp">Vendor</string>
+    <string name="tarif">Tanggal</string>
+    <string name="daya">Total</string>
+    <string name="alamat">PRINT</string>
+    <string name="lokasi_penyambungan">Logout</string>
+    <string name="mulai">Logout</string>
+    <string name="selesai">Logout</string>
+    <string name="category">Logout</string>
+    <string name="produk">Logout</string>
+    <string name="search_title">Search</string>
+    <string name="print">print</string>
+</resources>
